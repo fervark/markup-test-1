@@ -4,7 +4,7 @@
 * fullscreen.jpg - макет для полноразмерной страницы
 * mobile.jpg - макет адаптивной верстки
 
-Для верстки использовать webpak. <br/>
+Для верстки использовать mix (webpak). <br/>
 Для билдинга webpak, вам может понадобить установить npm c cross-env<br/>
 <pre>npm install --global cross-env 
 npm install --no-bin-links
