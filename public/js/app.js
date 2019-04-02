@@ -49180,8 +49180,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! E:\openServer\OpenServer\domains\markup-test-1.loc\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! E:\openServer\OpenServer\domains\markup-test-1.loc\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\OSPanel\domains\markup-test-1\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\OSPanel\domains\markup-test-1\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

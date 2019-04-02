@@ -1,20 +1,40 @@
-
 // Body
-$body-bg: #f8fafc;
+$body-bg: #fff;
+$header-bg: #e9ebee;
+$headDropdown-bg: #f4f5f7;
+
+// @media width
+$min-mobile: 320px;
+$max-mobile: 719px;
+
+$min-tablet: 720px;
+$max-tablet: 1025px;
 
 // Typography
-$font-family-sans-serif: "Nunito", sans-serif;
+$font-family: "Proxima Nova", sans-serif;
+$font-family-condensed: "din_condensed", sans-serif;
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
 // Colors
-$blue: #3490dc;
-$indigo: #6574cd;
-$purple: #9561e2;
-$pink: #f66D9b;
-$red: #e3342f;
-$orange: #f6993f;
-$yellow: #ffed4a;
-$green: #38c172;
-$teal: #4dc0b5;
-$cyan: #6cb2eb;
+$company-color: #ce0000;
+$text-color: #000;
+$white-color: #fff;
+
+// Gradients
+$yellow-bg: linear-gradient(180deg, #ffbe3c 40%, #ffa928 60%, #ffa928 65%, #ff9e1c);
+$yellow-hover-bg: linear-gradient(175deg, #ffbe3c 40%, #ffa928 60%, #ffa928 65%, #ff9e1c);
+
+// Margin
+$headerHeight: 110px;
+
+// Border radius
+$borderRadius: 5px;
+
+// Animation
+$anim-03: 0.3s;
+@mixin animate-03 ($anim-03) {
+	-moz-transition: all $anim-03 ease-in-out;
+	-o-transition: all $anim-03 ease-in-out;
+	-webkit-transition: all $anim-03 ease-in-out;
+}
