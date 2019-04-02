@@ -1,0 +1,45 @@
+// Variables
+@import '_variables';
+
+// Styles
+.btn {
+	padding: 21px;
+	border-radius: $borderRadius;
+	background: transparent;
+	@include animate-03($anim-03);
+
+	&:hover {
+		opacity: 0.95;
+	}
+
+	&:focus {
+		position: relative;
+	}
+	&:focus:before {
+		content: '';
+		position: absolute;
+		left: calc(50% - 4px);
+		bottom: 5px;
+		width: 4px;
+		height: 4px;
+		border-radius: 100%;
+		background: rgba(0,0,0,.3);
+	}
+
+	&-yellow{
+		background: $yellow-bg;
+		color: #fff;
+
+		&:hover {
+			background: $yellow-hover-bg;
+		}
+	}
+
+	&-bay {
+		width: 255px;
+		font-weight: 600;
+		box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+	}
+
+}
+

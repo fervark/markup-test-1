@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Regular.woff') format('woff'),
+			 url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+			 url('../fonts/ProximaNova-Regular.eot') format('embedded-opentype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Bold.woff') format('woff'),
+			 url('../fonts/ProximaNova-Bold.ttf') format('truetype'),
+			 url('../fonts/ProximaNova-Bold.eot') format('embedded-opentype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Proxima Nova';
+	src: url('../fonts/ProximaNova-Semibold.woff') format('woff'),
+			 url('../fonts/ProximaNova-Semibold.ttf') format('truetype'),
+			 url('../fonts/ProximaNova-Semibold.eot') format('embedded-opentype');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'din_condensed';
+	src: url('../fonts/din_condensed.woff') format('woff'),
+			 url('../fonts/din_condensed.ttf') format('truetype'),
+			 url('../fonts/din_condensed.eot') format('embedded-opentype');
+	font-weight: bold;
+	font-style: normal;
+}
