@@ -11,7 +11,10 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
+// mix.js('resources/js/app.js', 'public/js')
+mix.js('resources/js/landings/jquery-1.9.1.min.js', 'public/js')
+   .js('resources/js/landings/jquery.maskedinput.min.js', 'public/js')
+   .js('resources/js/landings/common.js', 'public/js')
    .sass('resources/sass/app.scss', 'public/css');
 
 mix.copy('resources/images', 'public/images');

@@ -59,7 +59,7 @@
                                     И вы завершите 2019 год с другим уровнем <br>продуктивности и уверенности в себе!
                                 </div>
                                 <div class="headAction--btnBox">
-                                    <button type="button" class="btn btn-bay btn-yellow" title="Заказать набор">{{ trans('landing.bayBtn') }}</button>
+                                    <a href="#sectionOrder-id" class="btn btn-bay btn-yellow" title="Перейти к заказу" rel="nofollow">{{ trans('landing.bayBtn') }}</a>
                                 </div>
                             </div>
 
@@ -172,7 +172,7 @@
                                     <label>Телефон</label>
                                     <input type="text" 
                                            name="phone" 
-                                           class="formInput"
+                                           class="formInput phone"
                                            title="Укажите номер телефона"
                                            required>
                                 </div>
@@ -210,6 +210,9 @@
     </div>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/jquery-1.9.1.min.js') }}"></script>
+    <script src="{{ asset('js/jquery.maskedinput.min.js') }}"></script>
+    {{-- <script src="{{ asset('js/app.js') }}"></script> --}}
+    <script src="{{ asset('js/common.js') }}"></script>
 </body>
 </html>
