@@ -293,8 +293,14 @@ h1,
             padding: 0 20px;
             font-size: 1.3em;
         }
-    }
-    
+    } 
+}
+h2,
+.h2 {
+    position: relative;
+    margin-bottom: 30px;
+    color: $text-color;
+    font-size: 1.9em;
 }
 
 

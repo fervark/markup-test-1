@@ -20,10 +20,14 @@ $line-height-base: 1.6;
 $company-color: #ce0000;
 $text-color: #000;
 $white-color: #fff;
+$yellow-color: #ffbe3c;
+$border-color: #000;
+$hr-color: #d9d9d9;
 
 // Gradients
 $yellow-bg: linear-gradient(180deg, #ffbe3c 40%, #ffa928 60%, #ffa928 65%, #ff9e1c);
 $yellow-hover-bg: linear-gradient(175deg, #ffbe3c 40%, #ffa928 60%, #ffa928 65%, #ff9e1c);
+$purple-bg: linear-gradient(90deg, #8e73e8 35%, #947cec 65%, #8e73e8);
 
 // Margin
 $headerHeight: 110px;
